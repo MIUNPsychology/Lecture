@@ -9,3 +9,7 @@ EditorBuildSettings:
     path: Assets/MainMenuScene.unity
   - enabled: 1
     path: Assets/EmptyRoomScene.unity
+  - enabled: 1
+    path: Assets/SecondMenuScene.unity
+  - enabled: 1
+    path: Assets/OnePersonRoomScene.unity

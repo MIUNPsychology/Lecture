@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEditor.SceneManagement;
 
-public class KeyPressToFirstScene : MonoBehaviour {
+public class MenuToSecond : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -13,7 +13,7 @@ public class KeyPressToFirstScene : MonoBehaviour {
 	void Update () {
 		if (Input.GetKeyDown ("space")) {
 			print ("Hello");
-			UnityEngine.SceneManagement.SceneManager.LoadScene ("EmptyRoomScene");
+			UnityEngine.SceneManagement.SceneManager.LoadScene ("OnePersonRoomScene");
 		}
 	}
 }
