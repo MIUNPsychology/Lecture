@@ -13,3 +13,5 @@ EditorBuildSettings:
     path: Assets/SecondMenuScene.unity
   - enabled: 1
     path: Assets/OnePersonRoomScene.unity
+  - enabled: 1
+    path: Assets/ThreePersonRoomScene.unity
