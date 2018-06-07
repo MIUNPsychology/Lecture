@@ -1875,9 +1875,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "I andra scenen kommer du sitta i ett rum tillsammans med ytterligare en
-    person.\n\nTryck p\xE5 mellanslag f\xF6r att starta andra scenen. \n\nN\xE4r du
-    vill g\xE5 vidare fr\xE5n scenen, tryck p\xE5 mellanslag igen"
+  m_Text: "I andra scenen kommer du sitta i ett rum tillsammans med en person som
+    ser uttr\xE5kad ut.\n\nTryck p\xE5 mellanslag f\xF6r att starta andra scenen.
+    \n\nN\xE4r du vill g\xE5 vidare fr\xE5n scenen, tryck p\xE5 mellanslag igen"
 --- !u!222 &1299581719
 CanvasRenderer:
   m_ObjectHideFlags: 0
