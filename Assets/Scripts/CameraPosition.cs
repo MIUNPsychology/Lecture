@@ -7,15 +7,17 @@ public class CameraPosition : MonoBehaviour {
 	private static float camera_x = 0.0f;
 	private static float camera_z = 0.0f;
 
+	public GameObject cameraController;
+
 	// Use this for initialization
 	void Start () {		
 		if (camera_x == 0.0f) {
-			camera_x = Camera.main.gameObject.transform.position.x;
+			camera_x = cameraController.transform.position.x;
 		}
 		if (camera_z == 0.0f) {
-			camera_z = Camera.main.gameObject.transform.position.z;
+			camera_z = cameraController.transform.position.z;
 		}
-		Camera.main.gameObject.transform.position = new Vector3 (camera_x, camera_y, camera_z);
+		cameraController.transform.position = new Vector3 (camera_x, camera_y, camera_z);
 	}
 	
 	// Update is called once per frame
@@ -23,12 +25,12 @@ public class CameraPosition : MonoBehaviour {
 		if (Input.GetKeyDown ("up")) {
 			print ("up");
 			camera_y = camera_y + 0.05f;
-			Camera.main.gameObject.transform.position = new Vector3 (camera_x, camera_y, camera_z);
+			cameraController.transform.position = new Vector3 (camera_x, camera_y, camera_z);
 		}
 		if (Input.GetKeyDown ("down")) {
 			print ("down");
 			camera_y = camera_y - 0.05f;
-			Camera.main.gameObject.transform.position = new Vector3 (camera_x, camera_y, camera_z);
+			cameraController.transform.position = new Vector3 (camera_x, camera_y, camera_z);
 		}
 	}
 }

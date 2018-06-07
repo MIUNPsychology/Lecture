@@ -71,7 +71,7 @@ LightmapSettings:
     m_FinalGatherFiltering: 1
     m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
-  m_LightingDataAsset: {fileID: 112000001, guid: d7aaf44c35ab2d344869a8725bae49f1,
+  m_LightingDataAsset: {fileID: 112000001, guid: c80e0b698cefd5c41a1706b0836cc039,
     type: 2}
   m_RuntimeCPUUsage: 25
 --- !u!196 &4
@@ -1840,7 +1840,7 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 58}
+  m_AnchoredPosition: {x: 0, y: 95}
   m_SizeDelta: {x: 800, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1299581718
@@ -1875,9 +1875,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "I f\xF6rsta scenen kommer du sitta i ett rum utan publik.\n\nTryck p\xE5
-    mellanslag f\xF6r att starta f\xF6rsta scenen. \n\nN\xE4r du vill g\xE5 vidare
-    fr\xE5n scenen, tryck p\xE5 mellanslag igen"
+  m_Text: "Justera din position i h\xF6jdled med hj\xE4lp av piltangenterna p\xE5
+    tangentbordet. \n\nTanken \xE4r h\xF6jden ska k\xE4nnas som om du sitter p\xE5
+    en stol.\n\nN\xE4r du \xE4r n\xF6jd med positionen, tryck p\xE5 mellanslag f\xF6r
+    att forts\xE4tta. "
 --- !u!222 &1299581719
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3073,8 +3074,8 @@ GameObject:
   - 4: {fileID: 2014908846}
   - 114: {fileID: 2014908845}
   - 114: {fileID: 2014908844}
-  - 114: {fileID: 2014908847}
   - 114: {fileID: 2014908848}
+  - 114: {fileID: 2014908847}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -3135,7 +3136,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2014908843}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dee703eb3df19674788b1ef536e902e3, type: 3}
+  m_Script: {fileID: 11500000, guid: 4cc2fb180ca71e543bb7e6e0291de75c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &2014908848
